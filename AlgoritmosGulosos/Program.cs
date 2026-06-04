@@ -14,6 +14,10 @@ namespace AlgoritmosGulosos
             // não testando todas as combinações possíveis. Por isso, nesse caso não encontrou a melhor soluçao global que seria os 100L
             Questao1.Resolver();
 
+            // solução foi feita calculando a prioriade = (valor/tempo). Apesar de eficiente,
+            // nao garante otimizaçao global, pois nao explora todas as combinaçoes possiveis de locais.
+            Questao2.Resolver();
+
         }
     }
 }

@@ -18,6 +18,9 @@ namespace AlgoritmosGulosos
             // nao garante otimizaçao global, pois nao explora todas as combinaçoes possiveis de locais.
             Questao2.Resolver();
 
+            // testando ele garante a melhor escolha local a cada passo (maior cobertura de estados não atendidos).
+            // mas isso nao implica no melhor global, pois decisoes locais podem impedir combinações melhores no final.
+            Questao3.Resolver();
         }
     }
 }
